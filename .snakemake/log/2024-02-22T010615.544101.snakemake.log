@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in rule analysis_visualization in file C:\Users\yases\PycharmProjects\pythonProject3\Snakefile, line 38:
+Missing input files for rule analysis_visualization:
+    output: output/heatmap.png, output/piechart.png
+    affected files:
+        output/barrnap
+        output/repeatmasker

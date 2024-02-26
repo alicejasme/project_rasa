@@ -1,0 +1,20 @@
+Building DAG of jobs...
+MissingInputException in rule all in file C:\Users\yases\PycharmProjects\pythonProject3\Snakefile, line 11:
+Missing input files for rule all:
+    affected files:
+        output/prokka_annotation/GCF_sa_prokka/GCF_sa.gff
+        output/prokka_annotation/GCF_ra_prokka/GCF_ra.gff
+        output/repeatmodeler/GCF_ra_rm/GCF_ra_db.nnd
+        output/repeatmodeler/GCF_sa_rm/GCF_sa_db.nhr
+        output/repeatmodeler/GCF_ra_rm/GCF_ra_db.nni
+        output/repeatmodeler/GCF_ra_rm/GCF_ra_db.nhr
+        output/repeatmodeler/GCF_ra_rm/GCF_ra_db.nin
+        output/repeatmodeler/GCF_sa_rm/GCF_sa_db.nni
+        output/repeatmodeler/GCF_sa_rm/GCF_sa_db.nin
+        output/prokka_annotation/GCF_sa_prokka/GCF_sa.gbk
+        output/repeatmodeler/GCF_sa_rm/GCF_sa_db.nnd
+        output/repeatmodeler/GCF_sa_rm/GCF_sa_db.nsq
+        output/repeatmodeler/GCF_sa_rm/GCF_sa_db.nog
+        output/prokka_annotation/GCF_ra_prokka/GCF_ra.gbk
+        output/repeatmodeler/GCF_ra_rm/GCF_ra_db.nog
+        output/repeatmodeler/GCF_ra_rm/GCF_ra_db.nsq

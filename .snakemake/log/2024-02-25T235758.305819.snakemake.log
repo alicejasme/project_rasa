@@ -1,0 +1,34 @@
+Building DAG of jobs...
+Retrieving input from storage.
+Provided cores: 4
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job stats:
+job        count
+-------  -------
+all            1
+barrnap        2
+total          3
+
+Select jobs to execute...
+Execute 2 jobs...
+
+[Sun Feb 25 23:57:58 2024]
+localrule barrnap:
+    input: resource/Genome/sa_genomic.fasta
+    output: output/sa_barrnap.gff
+    jobid: 2
+    reason: Missing output files: output/sa_barrnap.gff
+    wildcards: genome=sa
+    resources: tmpdir=C:\Users\yases\AppData\Local\Temp
+
+
+[Sun Feb 25 23:57:58 2024]
+localrule barrnap:
+    input: resource/Genome/ra_genomic.fasta
+    output: output/ra_barrnap.gff
+    jobid: 1
+    reason: Missing output files: output/ra_barrnap.gff
+    wildcards: genome=ra
+    resources: tmpdir=C:\Users\yases\AppData\Local\Temp
+

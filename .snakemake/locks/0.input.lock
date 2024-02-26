@@ -1,0 +1,4 @@
+output/ra_barrnap.gff
+output/sa_barrnap.gff
+resource/Genome/ra_genomic.fasta
+resource/Genome/sa_genomic.fasta
