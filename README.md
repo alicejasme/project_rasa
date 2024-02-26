@@ -1,2 +1,3 @@
-# project_rasa
+Project of RaSa
 Analyze genomes of Deinococcus radiodurans and Salmonella enterica for insights into genetic composition and functional characteristics using Barrnap, RepeatModeler, RepeatMasker, and StainedGlass.
+The main aim of this project is to perform comprehensive genomic analysis on the genomes of Deinococcus radiodurans and Salmonella enterica. This analysis includes tasks such as identifying ribosomal RNA (rRNA) sequences using Barrnap, detecting repetitive elements in the genomes using RepeatModeler and RepeatMasker, and analyzing secondary metabolite biosynthetic gene clusters using StainedGlass. The outputs generated from these analyses will provide valuable insights into the genetic composition, evolutionary dynamics, and potential functional characteristics of these organisms.
