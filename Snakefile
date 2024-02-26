@@ -14,16 +14,12 @@ rule all:
         expand("output/barrnap/{genome}_rrna_count.gff", genome=genomes),
 
         # RepeatModeler ve RepeatMasker için veritabanı oluşturma
-        expand("output/repeatmodeler/{genome}_rm/{genome}_db.nhr", genome=genomes),
-        expand("output/repeatmodeler/{genome}_rm/{genome}_db.nin", genome=genomes),
-        expand("output/repeatmodeler/{genome}_rm/{genome}_db.nnd", genome=genomes),
-        expand("output/repeatmodeler/{genome}_rm/{genome}_db.nni", genome=genomes),
-        expand("output/repeatmodeler/{genome}_rm/{genome}_db.nog", genome=genomes),
-        expand("output/repeatmodeler/{genome}_rm/{genome}_db.nsq", genome=genomes),
+        expand("output/repeatmodeler/{genome}_rm/{genome}_db.ra", genome=genomes),
+        expand("output/repeatmodeler/{genome}_rm/{genome}_db.sa", genome=genomes),
 
         # RepeatModeler çıktıları
-        expand("output/repeatmodeler/{genome}_rm/{genome}_db-families.fa", genome=genomes),
-        expand("output/repeatmodeler/{genome}_rm/{genome}_db-families.stk", genome=genomes),
+        expand("output/repeatmodeler/{genome}_rm/{genome}_db-families.ra", genome=genomes),
+        expand("output/repeatmodeler/{genome}_rm/{genome}_db-families.sa", genome=genomes),
 
         # RepeatMasker çıktıları
         expand("output/repeatmasker/{genome}_masked/{genome}_genome.fasta.masked", genome=genomes),
