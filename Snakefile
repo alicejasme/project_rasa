@@ -26,9 +26,6 @@ rule all:
         expand("output/repeatmasker/{genome}_masked/{genome}_genome.fasta.out", genome=genomes),
         expand("output/repeatmasker/{genome}_masked/{genome}_genome.fasta.tbl", genome=genomes),
 
-        # prokka ile genomların anotasyonu
-        expand("output/prokka_annotation/{genome}_prokka/{genome}.gff", genome=genomes),
-        expand("output/prokka_annotation/{genome}_prokka/{genome}.gbk", genome=genomes),
 
 rule barrnap:
     input:
